@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>isPhonenumber</title>
+</head>
+<body>
+<button onclick="checkemail(prompt('Nhập 1 email'))"> is_Email?</button>
+<script>
+    let regexpatt=/^[a-z]+[A-Za-z0-9]*@[A-Za-z0-1]+\.[A-Za-z0-9]+$/
+    function checkemail(a) {
+        if (regexpatt.test(a)){alert("Yes")  }else {alert("No")}
+    }
+</script>
+</body>
+</html>
